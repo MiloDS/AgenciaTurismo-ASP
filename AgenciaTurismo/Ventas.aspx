@@ -76,7 +76,7 @@
                          </div>
                          
                          <div class="buttons">
-                             <asp:Button ID="btnCalcular" runat="server" Text="Button" />                            
+                             <asp:Button ID="btnCalcular" runat="server" Text="Calcular" CssClass="buttons" />                             
                          </div>                         
                          <div class="resultado">
                              Valor a Pagar: <span id="txtValorPagar" runat="server">0</span>
@@ -87,5 +87,4 @@
         </div>
     </div>
 </body>
-</html>
-
+</html> 

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Proyectos\\AgenciaTurismo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\ventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\ventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\css\\componentes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\css\\componentes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\ventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\ventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\modelo\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\modelo\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\planes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\planes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\planes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\planes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +46,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "componentes.css",
               "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\css\\componentes.css",
               "RelativeDocumentMoniker": "AgenciaTurismo\\css\\componentes.css",
               "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\css\\componentes.css",
               "RelativeToolTip": "AgenciaTurismo\\css\\componentes.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAgwJAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-27T10:20:16.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "global.css",
-              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\css\\global.css",
-              "RelativeDocumentMoniker": "AgenciaTurismo\\css\\global.css",
-              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\css\\global.css",
-              "RelativeToolTip": "AgenciaTurismo\\css\\global.css",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAgwOAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-27T10:19:56.17Z",
+              "WhenOpened": "2025-03-27T10:53:17.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Plan.cs",
-              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\modelo\\Plan.cs",
-              "RelativeDocumentMoniker": "AgenciaTurismo\\modelo\\Plan.cs",
-              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\modelo\\Plan.cs",
-              "RelativeToolTip": "AgenciaTurismo\\modelo\\Plan.cs",
+              "Title": "Ventas.aspx.cs",
+              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Ventas.aspx.cs",
+              "RelativeDocumentMoniker": "AgenciaTurismo\\Ventas.aspx.cs",
+              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Ventas.aspx.cs",
+              "RelativeToolTip": "AgenciaTurismo\\Ventas.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T10:19:38.462Z",
+              "WhenOpened": "2025-03-27T10:51:11.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ventas.aspx",
+              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Ventas.aspx",
+              "RelativeDocumentMoniker": "AgenciaTurismo\\Ventas.aspx",
+              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Ventas.aspx",
+              "RelativeToolTip": "AgenciaTurismo\\Ventas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-27T10:51:04.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Planes.aspx",
+              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Planes.aspx",
+              "RelativeDocumentMoniker": "AgenciaTurismo\\Planes.aspx",
+              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Planes.aspx",
+              "RelativeToolTip": "AgenciaTurismo\\Planes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-27T10:50:54.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Planes.aspx.cs",
+              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Planes.aspx.cs",
+              "RelativeDocumentMoniker": "AgenciaTurismo\\Planes.aspx.cs",
+              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Planes.aspx.cs",
+              "RelativeToolTip": "AgenciaTurismo\\Planes.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:47:39.495Z",
               "EditorCaption": ""
             }
           ]
