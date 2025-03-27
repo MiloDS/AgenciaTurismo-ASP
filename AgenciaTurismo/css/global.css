@@ -1,0 +1,224 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1 {
+    background-color: #48d1cc;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    border-radius: 4px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00796b;
+    margin-top: 10px;
+}
+
+.textbox {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .textbox:focus {
+        border-color: #4CAF50;
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+        outline: none;
+    }
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #007C7C;
+    padding: 20px;
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .sidebar ul li {
+            padding: 15px;
+            text-align: center;
+        }
+
+            .sidebar ul li a {
+                color: #fff;
+                text-decoration: none;
+                display: block;
+                padding: 10px;
+                border-radius: 4px;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+                .sidebar ul li a:hover {
+                    background-color: #34495e;
+                    transform: scale(1.05);
+                }
+
+.main-content {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.panel-content {
+    background: url("emisivas.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+    .panel-content::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.4);
+        z-index: 1;
+    }
+
+    .panel-content > * {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+
+    .panel-content h1 {
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-planes {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-cards {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    max-width: 800px;
+    margin: 0 auto 1rem;
+    text-align: left;
+}
+
+    .form-cards h3 {
+        text-align: center;
+        margin-top: 0;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    .form-cards p {
+        margin: 8px 4px;
+        line-height: 1.6;
+    }
+
+    .form-cards ul {
+        margin: 0.5rem 1rem;
+        padding: 0;
+        list-style: disc;
+    }
+
+    .form-cards li {
+        margin-bottom: 0.5rem;
+        line-height: 1.6;
+    }
+/*Media Queries para responsividad*/
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: static;
+        height: auto;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .panel-content {
+        margin-top: 1rem;
+    }
+}
