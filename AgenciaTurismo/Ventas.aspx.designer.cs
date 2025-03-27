@@ -42,40 +42,40 @@ namespace AgenciaTurismo
         protected global::System.Web.UI.WebControls.Button btnBuscar;
 
         /// <summary>
-        /// txtNombrePlan control.
+        /// lblNombrePlan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombrePlan;
+        protected global::System.Web.UI.WebControls.Label lblNombrePlan;
 
         /// <summary>
-        /// txtTipoPlan control.
+        /// lblTipoPlan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTipoPlan;
+        protected global::System.Web.UI.WebControls.Label lblTipoPlan;
 
         /// <summary>
-        /// txtPrecioUnitario control.
+        /// lblPrecio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPrecioUnitario;
+        protected global::System.Web.UI.WebControls.Label lblPrecio;
 
         /// <summary>
-        /// txtDescripcion control.
+        /// lblDescripcion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea txtDescripcion;
+        protected global::System.Web.UI.WebControls.Label lblDescripcion;
 
         /// <summary>
         /// txtCantidad control.
@@ -96,12 +96,12 @@ namespace AgenciaTurismo
         protected global::System.Web.UI.WebControls.Button btnCalcular;
 
         /// <summary>
-        /// txtValorPagar control.
+        /// lblValorPagar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl txtValorPagar;
+        protected global::System.Web.UI.WebControls.Label lblValorPagar;
     }
 }

@@ -40,46 +40,18 @@
                 <div class="form-planes">
 
                      <div class="form-group">
-
-                         <div class="form-group">
-                             <label for="txtCodigoPlan">Código Plan:</label>
-                             <asp:TextBox ID="txtCodigoPlan" runat="server">Ingrese código del plan</asp:TextBox>
-                         </div> 
-
-                         <div class="buttons">
-                             <asp:Button ID="btnBuscar" runat="server" Text="Button" />      
-                         </div>
-                         
-                         <div class="form-group">
-                             <label>Nombre Plan:</label>
-                             <asp:TextBox ID="txtNombrePlan" runat="server"></asp:TextBox>
-                         </div>
-                         
-                         <div class="form-group">
-                             <label>Tipo Plan:</label>
-                             <asp:TextBox ID="txtTipoPlan" runat="server"></asp:TextBox>
-                         </div>
-                         
-                         <div class="form-group">
-                             <label>Precio Unitario:</label>
-                             <asp:TextBox ID="txtPrecioUnitario" runat="server"></asp:TextBox>
-                         </div>
-                         
-                         <div class="form-group">
-                             <label>Descripción:</label>
-                             <textarea id="txtDescripcion" runat="server" rows="3"></textarea>
-                         </div>
-                         
-                         <div class="form-group">
-                             <label for="txtCantidad">Cantidad a adquirir:</label>
-                             <asp:TextBox ID="txtCantidad" runat="server"></asp:TextBox>
-                         </div>
-                         
-                         <div class="buttons">
-                             <asp:Button ID="btnCalcular" runat="server" Text="Calcular" CssClass="buttons" />                             
-                         </div>                         
+                         <label for="txtCodigoPlan">Código Plan:</label>
+                         <asp:TextBox ID="txtCodigoPlan" runat="server" CssClass="textbox">Ingrese código del plan</asp:TextBox><br />
+                         <asp:Button ID="btnBuscar" runat="server" Text="Buscar" OnClick="btnBuscar_Click" /><br />
+                         <asp:Label ID="lblNombrePlan" runat="server" Text="Nombre Plan:"></asp:Label><br />
+                         <asp:Label ID="lblTipoPlan" runat="server" Text="Tipo Plan:"></asp:Label><br />
+                         <asp:Label ID="lblPrecio" runat="server" Text="Precio Unitario:"></asp:Label><br />
+                         <asp:Label ID="lblDescripcion" runat="server" Text="Descripción:"></asp:Label><br />
+                         <label for="txtCantidad">Cantidad a adquirir:</label>
+                         <asp:TextBox ID="txtCantidad" runat="server" CssClass="textbox"></asp:TextBox><br />
+                         <asp:Button ID="btnCalcular" runat="server" Text="Calcular" CssClass="buttons" OnClick="btnCalcular_Click" />
                          <div class="resultado">
-                             Valor a Pagar: <span id="txtValorPagar" runat="server">0</span>
+                             <asp:Label ID="lblValorPagar" runat="server" Text="Valor a Pagar:"></asp:Label>
                          </div>
                      </div>
                 </div>               
@@ -87,4 +59,5 @@
         </div>
     </div>
 </body>
-</html> 
+</html>
+ 

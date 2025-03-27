@@ -33,50 +33,35 @@
                 <div>
                     <h1>Agencia de Turismo Don Chucho</h1>
                 </div>
-            </div>
-            <div class="form-group">
-                <h2>Gestión de Planes</h2>
-            </div>
-
+            </div>         
+                <h2>Gestión de Planes</h2>            
             <div class="form-planes">
                 <div class="form-group">
-                    <label for="codigoPlan">Código Plan :</label>
-                    <input type="text" id="codigoPlan" name="codigoPlan" />
+                    <label for="txtCodigoPlan">Código Plan :</label>
+                    <asp:TextBox ID="txtCodigoPlan" runat="server" CssClass="textbox"></asp:TextBox>
                 </div>
-                   
                 <div class="form-group">
                     <label for="nombrePlan">Nombre Plan:</label>
-                    <input type="text" id="nombrePlan" name="nombrePlan" />
+                    <asp:TextBox ID="txtNombre" runat="server" CssClass="textbox"></asp:TextBox>
                 </div>
                 <div class="form-group">
                      <label for="tipoPlan">Tipo Plan:</label>
-                     <select id="tipoPlan" name="tipoPlan">
-                         <option value="familiar">Familiar</option>
-                         <option value="individual">Individual</option>
-                         <option value="grupal">Grupal</option>
-                     </select>
+                    <asp:DropDownList ID="ddlTipoPlan" runat="server" CssClass="textbox">
+                        <asp:ListItem Value="familiar" Text="Familiar"></asp:ListItem>
+                        <asp:ListItem Value="individual" Text="Individual"></asp:ListItem>
+                        <asp:ListItem Value="grupal" Text="Grupal"></asp:ListItem>
+                    </asp:DropDownList>
                  </div>
                 <div class="form-group">
                     <label for="precioUnitario">Precio Unitario :</label>
-                    <input type="number" id="precioUnitario" name="precioUnitario" step="0.01" />
+                    <asp:TextBox ID="txtPrecio" runat="server" CssClass="textbox"></asp:TextBox>
                 </div>
-
                 <div class="form-group">
-                       <label for="descripcion">Descripción :</label>
-                       <textarea id="descripcion" name="descripcion" rows="4"></textarea>
-                   </div>
-
-                 <div class="buttons">
-                     <button data-title="Guardar" data-text="Click">
-                         <span></span>
-                         <p data-title="Guardar" data-text="Click"></p>
-                     </button>
-
-                     <button data-title="Buscar" data-text="Click">
-                         <span></span>
-                         <p data-title="Buscar" data-text="Click"></p>
-                     </button>                     
-                 </div>               
+                    <label for="descripcion">Descripción :</label>
+                    <asp:TextBox ID="txtDescripcion" runat="server" CssClass="textbox"></asp:TextBox>
+                </div>
+                <asp:Button ID="btnGuardar" runat="server" Text="Guardar" CssClass="buttons" OnClick="btnGuardar_Click" />
+                <asp:Button ID="btnBuscar" runat="server" Text="Buscar" CssClass="buttons" OnClick="btnBuscar_Click" />
             </div>
          </form>
      </div>

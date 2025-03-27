@@ -37,7 +37,7 @@
                 </div>
                 <div>
                     <div class="form-cards">
-                        <b>QUIENES SOMOS</b><br />
+                        <h3>QUIENES SOMOS</h3><br />
                         <p>Agencia turistica don chucho es una agencia operadora,
                             pionera del turismo rural en el Quindío y en Colombia.
                             Ofrecen experiencias auténticas y personalizadas para turistas 
@@ -58,15 +58,15 @@
                         </div>
                         <div>
                             <b>Visión:</b><br />
-                            <p>Para el 2018, seremos uno de los líderes en turismo rural en Colombia
-                                y aumentar la captación de turistas extranjeros en un 20%, mediante 
+                            <p>Para el 2028, seremos uno de los líderes en turismo rural en Colombia
+                                y aumentar la captación de turistas extranjeros en un 30%, mediante 
                                 la optimización de los recursos tecnológicos, de comunicación y la 
                                 generación de alianzas estratégicas con nuestros proveedores.</p> 
                         </div>                        
                     </div> 
                 </div>
                 <div class="form-cards">
-                    <b>Valores Empresariales</b><br />
+                    <h3>Valores Empresariales</h3><br />
                     <ul>
                         <li><strong>Orientación al Cliente:</strong> Ponemos las necesidades de nuestros viajeros en el centro de todas nuestras decisiones, ofreciendo soluciones personalizadas.</li>
                         <li><strong>Integridad y Transparencia:</strong> Actuamos con honestidad y claridad en cada proceso, fomentando la comunicación sincera con clientes y colaboradores.</li>
