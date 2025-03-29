@@ -33,8 +33,10 @@
                 <div>
                     <h1>Agencia de Turismo Don Chucho</h1>
                 </div>
-            </div>         
-                <h2>Gestión de Planes</h2>            
+            </div>
+            <div class="form-group">
+                <h2>Gestión de Planes</h2>    
+            </div>                        
             <div class="form-planes">
                 <div class="form-group">
                     <label for="txtCodigoPlan">Código Plan :</label>
@@ -46,7 +48,7 @@
                 </div>
                 <div class="form-group">
                      <label for="tipoPlan">Tipo Plan:</label>
-                    <asp:DropDownList ID="ddlTipoPlan" runat="server" CssClass="textbox">
+                    <asp:DropDownList ID="ddlTipoPlan" runat="server" CssClass="textbox" >
                         <asp:ListItem Value="familiar" Text="Familiar"></asp:ListItem>
                         <asp:ListItem Value="individual" Text="Individual"></asp:ListItem>
                         <asp:ListItem Value="grupal" Text="Grupal"></asp:ListItem>
@@ -60,7 +62,7 @@
                     <label for="descripcion">Descripción :</label>
                     <asp:TextBox ID="txtDescripcion" runat="server" CssClass="textbox"></asp:TextBox>
                 </div>
-                <asp:Button ID="btnGuardar" runat="server" Text="Guardar" CssClass="buttons" OnClick="btnGuardar_Click" />
+                <asp:Button ID="btnGuardar" runat="server" Text="Guardar" CssClass="buttons" OnClick="btnGuardar_Click" /><br />
                 <asp:Button ID="btnBuscar" runat="server" Text="Buscar" CssClass="buttons" OnClick="btnBuscar_Click" />
             </div>
          </form>

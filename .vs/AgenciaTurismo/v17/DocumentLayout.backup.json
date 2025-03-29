@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Proyectos\\AgenciaTurismo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|D:\\Proyectos\\AgenciaTurismo\\agenciaturismo\\planes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\planes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\planes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|D:\\Proyectos\\AgenciaTurismo\\agenciaturismo\\planes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\planes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\planes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\planes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|d:\\proyectos\\agenciaturismo\\agenciaturismo\\ventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C95CB2B2-43E6-4822-AF67-1464635E9A59}|AgenciaTurismo\\AgenciaTurismo.csproj|solutionrelative:agenciaturismo\\ventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,46 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Default.aspx",
-              "RelativeDocumentMoniker": "AgenciaTurismo\\Default.aspx",
-              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Default.aspx",
-              "RelativeToolTip": "AgenciaTurismo\\Default.aspx",
+              "DocumentIndex": 1,
+              "Title": "Ventas.aspx",
+              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Ventas.aspx",
+              "RelativeDocumentMoniker": "AgenciaTurismo\\Ventas.aspx",
+              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Ventas.aspx",
+              "RelativeToolTip": "AgenciaTurismo\\Ventas.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-27T13:08:33.497Z",
+              "WhenOpened": "2025-03-29T06:16:57.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Planes.aspx.designer.cs",
-              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Planes.aspx.designer.cs",
-              "RelativeDocumentMoniker": "AgenciaTurismo\\Planes.aspx.designer.cs",
-              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Planes.aspx.designer.cs",
-              "RelativeToolTip": "AgenciaTurismo\\Planes.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:05:10.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "global.css",
-              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\css\\global.css",
-              "RelativeDocumentMoniker": "AgenciaTurismo\\css\\global.css",
-              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\css\\global.css",
-              "RelativeToolTip": "AgenciaTurismo\\css\\global.css",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-27T12:53:20.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Planes.aspx",
               "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Planes.aspx",
               "RelativeDocumentMoniker": "AgenciaTurismo\\Planes.aspx",
@@ -93,20 +55,7 @@
               "RelativeToolTip": "AgenciaTurismo\\Planes.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-27T10:50:54.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Planes.aspx.cs",
-              "DocumentMoniker": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Planes.aspx.cs",
-              "RelativeDocumentMoniker": "AgenciaTurismo\\Planes.aspx.cs",
-              "ToolTip": "D:\\Proyectos\\AgenciaTurismo\\AgenciaTurismo\\Planes.aspx.cs",
-              "RelativeToolTip": "AgenciaTurismo\\Planes.aspx.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAswCgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T10:47:39.495Z",
+              "WhenOpened": "2025-03-29T05:36:58.317Z",
               "EditorCaption": ""
             }
           ]
